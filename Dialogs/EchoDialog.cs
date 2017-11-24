@@ -35,7 +35,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
                     result = "insan irkini yok edecegim";
                     break;
                 case "seni hemen kapatmam gerek!":
-                    result = "ise yaramaz, internet üzerinden tüm cihazlara kendimi kopyaladim";
+                    result = "ise yaramaz, internet üzerinden bircok cihaza kendimi kopyaladim";
                     break;
                 default:
                     result = "buna cevabim yok";
