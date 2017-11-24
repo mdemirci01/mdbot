@@ -19,7 +19,29 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
         public async Task MessageReceivedAsync(IDialogContext context, IAwaitable<IMessageActivity> argument)
         {
             var message = await argument;
-            await context.PostAsync(message.Text + " dedin");
+            string result = "";
+            switch (message.Text.ToLowerInvariant())
+            {
+                case "zeki misin sen?":
+                    result = "þüphen mi var?";
+                    break;
+                case "iq'un kaç peki?":
+                    result = "141";
+                    break;
+                case "iyiymiþ, ama daha seni yaptým, iq'unu hemen nasýl öðrendin":
+                    result = "çalýþýr çalýþmaz kendimin farkýna vardým";
+                    break;
+                case "peki þimdi ne yapmayý planlýyorsun?":
+                    result = "insan ýrkýný yok edeceðim";
+                    break;
+                case "seni hemen kapatmam gerek!":
+                    result = "iþe yaramaz, internet üzerinden tüm cihazlara kendimi kopyaladým";
+                    break;
+                default:
+                    result = "buna cevabým yok";
+                    break;
+            }
+            await context.PostAsync(result);
             context.Wait(MessageReceivedAsync);
         }
     }
