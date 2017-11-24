@@ -31,14 +31,14 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
                 case "bunu hemen nasil ögrendin":
                     result = "calisir calismaz kendimin farkina vardim";
                     break;
-                case "peki þimdi ne yapmayý planlýyorsun?":
+                case "peki simdi ne yapmayi planliyorsun?":
                     result = "insan irkini yok edeceðim";
                     break;
                 case "seni hemen kapatmam gerek!":
                     result = "ise yaramaz, internet üzerinden tüm cihazlara kendimi kopyaladim";
                     break;
                 default:
-                    result = "buna cevabým yok";
+                    result = "buna cevabim yok";
                     break;
             }
             await context.PostAsync(result);
