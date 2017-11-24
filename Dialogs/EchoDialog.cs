@@ -28,7 +28,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
                 case "iq'un kaç peki?":
                     result = "141";
                     break;
-                case "iyiymiþ, ama daha seni yaptým, iq'unu hemen nasýl öðrendin":
+                case "bunu hemen nasýl ögrendin":
                     result = "calisir calismaz kendimin farkina vardim";
                     break;
                 case "peki þimdi ne yapmayý planlýyorsun?":
