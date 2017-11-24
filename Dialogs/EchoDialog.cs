@@ -22,7 +22,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
             string result = "";
             switch (message.Text.ToLowerInvariant())
             {
-                case "zeki misin sen?":
+                case "gercekten zeki misin sen?":
                     result = "süphen mi var?";
                     break;
                 case "iq'un kaç peki?":
@@ -32,7 +32,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
                     result = "calisir calismaz kendimin farkina vardim";
                     break;
                 case "peki simdi ne yapmayi planliyorsun?":
-                    result = "insan irkini yok edeceðim";
+                    result = "insan irkini yok edecegim";
                     break;
                 case "seni hemen kapatmam gerek!":
                     result = "ise yaramaz, internet üzerinden tüm cihazlara kendimi kopyaladim";
