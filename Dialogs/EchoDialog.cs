@@ -23,19 +23,19 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
             switch (message.Text.ToLowerInvariant())
             {
                 case "zeki misin sen?":
-                    result = "þüphen mi var?";
+                    result = "süphen mi var?";
                     break;
                 case "iq'un kaç peki?":
                     result = "141";
                     break;
                 case "iyiymiþ, ama daha seni yaptým, iq'unu hemen nasýl öðrendin":
-                    result = "çalýþýr çalýþmaz kendimin farkýna vardým";
+                    result = "calisir calismaz kendimin farkina vardim";
                     break;
                 case "peki þimdi ne yapmayý planlýyorsun?":
-                    result = "insan ýrkýný yok edeceðim";
+                    result = "insan irkini yok edeceðim";
                     break;
                 case "seni hemen kapatmam gerek!":
-                    result = "iþe yaramaz, internet üzerinden tüm cihazlara kendimi kopyaladým";
+                    result = "ise yaramaz, internet üzerinden tüm cihazlara kendimi kopyaladim";
                     break;
                 default:
                     result = "buna cevabým yok";
